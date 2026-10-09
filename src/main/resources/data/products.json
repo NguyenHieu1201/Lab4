@@ -1,0 +1,122 @@
+[
+  {
+    "id": 101,
+    "name": "iPhone 15 Pro Max 256GB",
+    "price": 30990000,
+    "description": "Khung vỏ chất liệu Titan chuẩn hàng không vũ trụ, chip Apple A17 Pro siêu cấp, camera 48MP zoom quang học 5x sắc nét.",
+    "categoryId": 1,
+    "image": "iphone15pro.jpg",
+    "stock": 15,
+    "featured": true
+  },
+  {
+    "id": 102,
+    "name": "Samsung Galaxy S24 Ultra 5G",
+    "price": 27990000,
+    "description": "Tích hợp bộ trí tuệ nhân tạo Galaxy AI, bút S-Pen ghi chú thông minh, camera 200MP xuất sắc cùng màn hình 120Hz.",
+    "categoryId": 1,
+    "image": "s24ultra.jpg",
+    "stock": 20,
+    "featured": true
+  },
+  {
+    "id": 103,
+    "name": "Xiaomi 14 Ultra 512GB",
+    "price": 24990000,
+    "description": "Cụm 4 camera ống kính quang học Leica đỉnh cao, chip Snapdragon 8 Gen 3 siêu tốc, mặt lưng da sinh học sang trọng.",
+    "categoryId": 1,
+    "image": "iphone15pro.jpg",
+    "stock": 8,
+    "featured": false
+  },
+  {
+    "id": 201,
+    "name": "MacBook Pro 14 inch M3 Pro",
+    "price": 49990000,
+    "description": "Vi xử lý Apple M3 Pro đột phá hiệu năng, màn hình Liquid Retina XDR 120Hz sống động, thời lượng pin 18 giờ liên tục.",
+    "categoryId": 2,
+    "image": "macbookm3.jpg",
+    "stock": 10,
+    "featured": true
+  },
+  {
+    "id": 202,
+    "name": "Dell XPS 13 9340 Core Ultra 7",
+    "price": 38500000,
+    "description": "Thiết kế siêu mỏng nhẹ cao cấp, màn hình 3.2K OLED cảm ứng tràn viền, vi xử lý Intel Core Ultra AI thế hệ mới.",
+    "categoryId": 2,
+    "image": "macbookm3.jpg",
+    "stock": 12,
+    "featured": false
+  },
+  {
+    "id": 203,
+    "name": "ASUS ROG Zephyrus G16 OLED",
+    "price": 42990000,
+    "description": "Laptop Gaming mỏng nhẹ nhất thế giới, màn hình ROG Nebula OLED 240Hz siêu mượt, đồ họa NVIDIA RTX 4070.",
+    "categoryId": 2,
+    "image": "macbookm3.jpg",
+    "stock": 6,
+    "featured": true
+  },
+  {
+    "id": 301,
+    "name": "iPad Pro 11 inch M4 OLED",
+    "price": 28990000,
+    "description": "Thiết kế siêu mỏng 5.3mm kỷ lục, màn hình Ultra Retina XDR Tandem OLED tuyệt mỹ, chip M4 xử lý AI chuyên nghiệp.",
+    "categoryId": 3,
+    "image": "s24ultra.jpg",
+    "stock": 25,
+    "featured": true
+  },
+  {
+    "id": 302,
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "price": 22490000,
+    "description": "Màn hình 14.6 inch cực đại Dynamic AMOLED 2X, chuẩn kháng nước IP68, kèm bút S-Pen thế hệ mới đa nhiệm chuyên nghiệp.",
+    "categoryId": 3,
+    "image": "s24ultra.jpg",
+    "stock": 14,
+    "featured": false
+  },
+  {
+    "id": 401,
+    "name": "Apple Watch Ultra 2 Titanium",
+    "price": 21990000,
+    "description": "Khung vỏ Titanium 49mm siêu bền bỉ, màn hình Retina 3000 nits siêu sáng, định vị GPS tần số kép độ chính xác cực cao.",
+    "categoryId": 4,
+    "image": "iphone15pro.jpg",
+    "stock": 18,
+    "featured": true
+  },
+  {
+    "id": 402,
+    "name": "Samsung Galaxy Watch6 Classic",
+    "price": 7490000,
+    "description": "Vòng xoay bezel xoay vật lý sang trọng, cảm biến phân tích thành phần cơ thể BIA, huấn luyện viên theo dõi giấc ngủ.",
+    "categoryId": 4,
+    "image": "s24ultra.jpg",
+    "stock": 30,
+    "featured": false
+  },
+  {
+    "id": 501,
+    "name": "Tai nghe AirPods Pro 2 USB-C",
+    "price": 5790000,
+    "description": "Chống ồn chủ động ANC gấp 2 lần, âm thanh không mất chi tiết Lossless, cổng sạc USB-C và hộp sạc tìm kiếm chính xác.",
+    "categoryId": 5,
+    "image": "iphone15pro.jpg",
+    "stock": 50,
+    "featured": true
+  },
+  {
+    "id": 502,
+    "name": "Sạc dự phòng Anker Prime 200W",
+    "price": 2890000,
+    "description": "Dung lượng khủng 20,000mAh, công suất sạc kép 200W hỗ trợ sạc nhanh laptop, màn hình OLED hiển thị thông tin dòng điện.",
+    "categoryId": 5,
+    "image": "macbookm3.jpg",
+    "stock": 40,
+    "featured": false
+  }
+]

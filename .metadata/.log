@@ -1,0 +1,377 @@
+!SESSION 2026-10-02 19:46:12.892 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-02 19:46:14.760
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-02 19:46:33.024
+!MESSAGE Logback config file: D:\VHU\CONGNGHEPHANMEM\lab2_CNPM-main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-10-02 19:46:33.479
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-02 19:46:33.479
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.gradusnikov.eclipse.plugin.assistai.main', id='com.github.gradusnikov.eclipse.plugin.assistai.main.command.addToResources'
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-02 19:46:34.231
+!MESSAGE ResourceCache created with instance ID: 204319504
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-02 19:46:34.232
+!MESSAGE ResourcesPresenter: Workspace listener registered
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-02 19:46:34.431
+!MESSAGE ResourceCacheHelper initialized with ResourceCache instance: 204319504
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-10-02 19:46:37.910
+!MESSAGE [C4E] booting
+
+!ENTRY org.eclipse.ui 4 0 2026-10-02 19:46:37.914
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4931)
+	at org.eclipse.swt.SWT.error(SWT.java:4865)
+	at org.eclipse.swt.SWT.error(SWT.java:4836)
+	at org.eclipse.swt.graphics.GC.drawImage(GC.java:1261)
+	at org.eclipse.swt.graphics.GC$DrawScalingImageToImageOperation.apply(GC.java:1183)
+	at org.eclipse.swt.graphics.GC.storeAndApplyOperationForExistingHandle(GC.java:6047)
+	at org.eclipse.swt.graphics.GC.drawImage(GC.java:1111)
+	at org.eclipse.swt.custom.CLabel.onPaint(CLabel.java:577)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4364)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1241)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1226)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4916)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5132)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3748)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-02 19:46:38.204
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vtpt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-10-02 19:46:38.437
+!MESSAGE [C4E] Language server: LOCAL_NODE
+
+!ENTRY com.github.gradusnikov.eclipse.plugin.assistai.main 1 0 2026-10-02 19:46:38.546
+!MESSAGE Initializing HTTP MCP Server Registry on UI thread
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-02 19:46:38.600
+!MESSAGE Initializing MCP Http Server.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-02 19:46:39.844
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-02 19:46:39.852
+!MESSAGE [C4E] EdgeDataDir: D:\VHU\CONGNGHEPHANMEM\lab2_CNPM-main\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-02 19:46:39.923
+!MESSAGE [Info]	[certificates] Removed 7 expired certificates
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-02 19:46:40.143
+!MESSAGE [C4E] Conversation persistence: D:/VHU/CONGNGHEPHANMEM/lab2_CNPM-main/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-10-02 19:46:40.181
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-02 19:46:40.331
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:63974/chat
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-10-02 19:46:41.398
+!MESSAGE [C4E] API started
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-02 19:46:45.163
+!MESSAGE [C4E] Workspace labels: 
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-02 19:50:03.328
+!MESSAGE [C4E] Internal server stopped: Server@7d5b37f{STOPPED}[10.0.25,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-02 19:50:03.328
+!MESSAGE [C4E] Internal server stopped: true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-02 19:50:03.667
+!MESSAGE ResourceCache: Workspace listener unregistered
+!SESSION 2026-10-03 19:34:32.856 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-03 19:34:35.306
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-03 19:35:07.923
+!MESSAGE Logback config file: D:\VHU\CONGNGHEPHANMEM\lab2_CNPM-main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-10-03 19:35:08.513
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-03 19:35:08.513
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.gradusnikov.eclipse.plugin.assistai.main', id='com.github.gradusnikov.eclipse.plugin.assistai.main.command.addToResources'
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-03 19:35:09.549
+!MESSAGE ResourceCache created with instance ID: 1715259593
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-03 19:35:09.550
+!MESSAGE ResourcesPresenter: Workspace listener registered
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-03 19:35:09.860
+!MESSAGE ResourceCacheHelper initialized with ResourceCache instance: 1715259593
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-10-03 19:35:13.403
+!MESSAGE [C4E] booting
+
+!ENTRY org.eclipse.ui 4 0 2026-10-03 19:35:13.440
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4931)
+	at org.eclipse.swt.SWT.error(SWT.java:4865)
+	at org.eclipse.swt.SWT.error(SWT.java:4836)
+	at org.eclipse.swt.graphics.GC.drawImage(GC.java:1261)
+	at org.eclipse.swt.graphics.GC$DrawScalingImageToImageOperation.apply(GC.java:1183)
+	at org.eclipse.swt.graphics.GC.storeAndApplyOperationForExistingHandle(GC.java:6047)
+	at org.eclipse.swt.graphics.GC.drawImage(GC.java:1111)
+	at org.eclipse.swt.custom.CLabel.onPaint(CLabel.java:577)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4364)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1241)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1226)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4916)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5132)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3748)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-03 19:35:13.530
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vtpt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-10-03 19:35:13.566
+!MESSAGE [C4E] Language server: LOCAL_NODE
+
+!ENTRY com.github.gradusnikov.eclipse.plugin.assistai.main 1 0 2026-10-03 19:35:14.018
+!MESSAGE Initializing HTTP MCP Server Registry on UI thread
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-03 19:35:14.039
+!MESSAGE Initializing MCP Http Server.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-03 19:35:19.015
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-03 19:35:19.029
+!MESSAGE [C4E] EdgeDataDir: D:\VHU\CONGNGHEPHANMEM\lab2_CNPM-main\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-03 19:35:19.122
+!MESSAGE [Info]	[certificates] Removed 7 expired certificates
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-03 19:35:19.635
+!MESSAGE [C4E] Conversation persistence: D:/VHU/CONGNGHEPHANMEM/lab2_CNPM-main/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-10-03 19:35:19.671
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-03 19:35:19.823
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:55607/chat
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-10-03 19:35:20.789
+!MESSAGE [C4E] API started
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-03 19:35:24.651
+!MESSAGE [C4E] Workspace labels: 
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-03 19:40:52.583
+!MESSAGE [C4E] Internal server stopped: Server@a8b8bd8{STOPPED}[10.0.25,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-03 19:40:52.583
+!MESSAGE [C4E] Internal server stopped: true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-03 19:40:53.108
+!MESSAGE ResourceCache: Workspace listener unregistered
+!SESSION 2026-10-09 18:22:55.779 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-09 18:22:57.779
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-09 18:23:07.003
+!MESSAGE Logback config file: D:\VHU\CONGNGHEPHANMEM\lab2_CNPM-main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-10-09 18:23:07.536
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-09 18:23:07.536
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.gradusnikov.eclipse.plugin.assistai.main', id='com.github.gradusnikov.eclipse.plugin.assistai.main.command.addToResources'
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-09 18:23:08.403
+!MESSAGE ResourceCache created with instance ID: 1599146281
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-09 18:23:08.405
+!MESSAGE ResourcesPresenter: Workspace listener registered
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-09 18:23:08.648
+!MESSAGE ResourceCacheHelper initialized with ResourceCache instance: 1599146281
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2026-10-09 18:23:11.647
+!MESSAGE [C4E] booting
+
+!ENTRY org.eclipse.ui 4 0 2026-10-09 18:23:11.676
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4931)
+	at org.eclipse.swt.SWT.error(SWT.java:4865)
+	at org.eclipse.swt.SWT.error(SWT.java:4836)
+	at org.eclipse.swt.graphics.GC.drawImage(GC.java:1261)
+	at org.eclipse.swt.graphics.GC$DrawScalingImageToImageOperation.apply(GC.java:1183)
+	at org.eclipse.swt.graphics.GC.storeAndApplyOperationForExistingHandle(GC.java:6047)
+	at org.eclipse.swt.graphics.GC.drawImage(GC.java:1111)
+	at org.eclipse.swt.custom.CLabel.onPaint(CLabel.java:577)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4364)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1241)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1226)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4916)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5132)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3748)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-09 18:23:11.696
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vtpt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2026-10-09 18:23:11.856
+!MESSAGE [C4E] Language server: LOCAL_NODE
+
+!ENTRY com.github.gradusnikov.eclipse.plugin.assistai.main 1 0 2026-10-09 18:23:12.375
+!MESSAGE Initializing HTTP MCP Server Registry on UI thread
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-09 18:23:12.430
+!MESSAGE Initializing MCP Http Server.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-09 18:23:16.477
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2026-10-09 18:23:16.486
+!MESSAGE [C4E] EdgeDataDir: D:\VHU\CONGNGHEPHANMEM\lab2_CNPM-main\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2026-10-09 18:23:16.532
+!MESSAGE ResourceCache: Workspace listener unregistered
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-09 18:23:16.566
+!MESSAGE [Info]	[certificates] Removed 9 expired certificates
+
+!ENTRY org.eclipse.oomph.ui 4 0 2026-10-09 18:23:16.846
+!MESSAGE java.lang.ExceptionInInitializerError
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.eclipse.oomph.p2.internal.core.AgentImpl.initializeProvisioningAgent(AgentImpl.java:604)
+	at org.eclipse.oomph.p2.internal.core.AgentManagerImpl.getCurrentAgent(AgentManagerImpl.java:228)
+	at org.eclipse.oomph.p2.core.P2Util.getCurrentProvisioningAgent(P2Util.java:117)
+	at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.<clinit>(SetupCoreUtil.java:158)
+	at org.eclipse.oomph.setup.ui.recorder.RecorderManager.<clinit>(RecorderManager.java:114)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:229)
+	at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:23)
+	at org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:119)
+	at org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getProperty(String)" because the return value of "org.eclipse.equinox.internal.p2.artifact.repository.Activator.getContext()" is null
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.<clinit>(CachingRepositoryManager.java:570)
+	... 10 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-10-09 18:23:17.122
+!MESSAGE An internal error occurred during: "C4E Startup".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.genuitec.copilot4eclipse.chat.ChatPlugin.logInfo(String)" because the return value of "com.genuitec.copilot4eclipse.chat.ChatPlugin.getDefault()" is null
+	at com.genuitec.copilot4eclipse.chat.persistence.ChatPersistenceManager.init(ChatPersistenceManager.java:75)
+	at com.genuitec.copilot4eclipse.chat.persistence.ChatPersistenceManager.<init>(ChatPersistenceManager.java:42)
+	at com.genuitec.copilot4eclipse.chat.ChatService.init(ChatService.java:173)
+	at com.genuitec.copilot4eclipse.boot.Bootup.basicStart(Bootup.java:67)
+	at com.genuitec.copilot4eclipse.boot.Bootup$1.run(Bootup.java:34)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

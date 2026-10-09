@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Điện thoại di động",
+    "description": "Các dòng smartphone flagship mới nhất từ Apple, Samsung, Xiaomi với hiệu năng đỉnh cao",
+    "icon": "bi-phone"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "description": "Máy tính xách tay mỏng nhẹ, laptop đồ họa và gaming cấu hình khủng chính hãng",
+    "icon": "bi-laptop"
+  },
+  {
+    "id": 3,
+    "name": "Máy tính bảng",
+    "description": "Tablet màn hình OLED sắc nét, hỗ trợ bút cảm ứng phục vụ học tập và sáng tạo",
+    "icon": "bi-tablet"
+  },
+  {
+    "id": 4,
+    "name": "Đồng hồ thông minh",
+    "description": "Smartwatch thời trang theo dõi sức khỏe, nhịp tim, giấc ngủ và đo thể thao chuyên nghiệp",
+    "icon": "bi-smartwatch"
+  },
+  {
+    "id": 5,
+    "name": "Phụ kiện",
+    "description": "Tai nghe chống ồn, sạc nhanh công suất lớn, cáp truyền dữ liệu và phụ kiện cao cấp",
+    "icon": "bi-headphones"
+  }
+]
